@@ -1,0 +1,31 @@
+<script>
+    const name = "Bootleg Bob"
+
+    /// Length of the string
+    const length = name.length                      /// de naam bevat 11 inc spatie
+
+    /// Case manipulation
+    const lowerCase = name.toLowerCase()            /// zet de hele naam om in kleine letter
+    const upperCase = name.toUpperCase()            /// zet de hele naam om in grote letter
+
+    /// Replace (only 1)
+    const replaced = name.replace('o', 'a')         /// vervangt de eerste 'o' in een 'a'
+    /// ALL with regular expression
+    const replaceAll = name.replace(/o/g, 'a')      /// vervangt alle ''s in 'a's
+
+    /// Substring
+    const substring = name.substring(2,8)           /// laat alles zien tussen onderdeel 2 en 8
+
+    /// Array
+    const toArray = name.split (' ')                ///splits de naam op bij de spatie
+
+    console.log({
+        length: length,
+        lowerCase: lowerCase,
+        upperCase: upperCase,
+        replaced: replaced,
+        replaceAll: replaceAll,
+        toArray: toArray,
+        substring: substring
+    })
+</script>
