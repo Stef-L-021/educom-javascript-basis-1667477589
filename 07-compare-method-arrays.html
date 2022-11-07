@@ -1,0 +1,14 @@
+<script>
+
+    const points = [40, 100, 1, 5, 25, 10]
+    points.sort()
+    console.log({ strange: points })
+    ///output: 1, 10, 100, 25, 40, 5 
+
+    /// correctie
+    const points2= [40, 100, 1, 5, 25, 10]
+    points2.sort( (a,b) => a-b)
+    console.log({ proper: points2 })
+    /// output: 1, 5, 10, 25, 40, 100
+    
+</script>
