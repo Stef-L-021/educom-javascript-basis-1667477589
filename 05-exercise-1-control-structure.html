@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script>
+            let i  =0                                       // i begint bij 0
+            var overig
+            var total = 0 
+            while(i < 101) {                                // dit script loopt tm i 100 is
+                console.log(`The value of i: ${i}`)         // console zegt wat de waarde van i is
+                let overig = i % 2
+                console.log({overig})
+                
+                //even
+                if(overig == 0) 
+                {
+                    total = total + i
+                    console.log({total})
+                }
+                i++                                         // voegt 1 toe aan i
+
+            } // einde while statement
+
+            console.log({total})
+        </script>
+    </head>
+</html>
